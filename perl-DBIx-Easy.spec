@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	DBIx
-%define	pnam	Easy
+%define		pdir	DBIx
+%define		pnam	Easy
 Summary:	DBIx::Easy - easy to use DBI interface
 Summary(pl):	DBIx::Easy - ³atwy w u¿yciu interfejs DBI
 Name:		perl-DBIx-Easy
