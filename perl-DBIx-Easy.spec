@@ -3,7 +3,7 @@ Summary:	DBIx-Easy perl module
 Summary(pl):	Modu³ perla DBIx-Easy
 Name:		perl-DBIx-Easy
 Version:	0.08
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
@@ -12,7 +12,6 @@ Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/DBIx/DBIx-Easy-%{version}
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 BuildRequires:	perl-DBI
-BuildRequires:	perl-DBIx-Easy
 BuildRequires:	perl-Term-ReadKey
 BuildRequires:	perl-Text-CSV_XS
 %requires_eq	perl
