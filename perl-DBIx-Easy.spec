@@ -5,7 +5,7 @@ Summary:	DBIx::Easy - Easy to Use DBI interface
 Summary(pl):	DBIx::Easy - ³atwy w u¿yciu interfejs DBI
 Name:		perl-DBIx-Easy
 Version:	0.15
-Release:	3
+Release:	4
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -13,7 +13,7 @@ BuildRequires:	perl >= 5.6.1
 BuildRequires:	perl-DBI
 BuildRequires:	perl-Term-ReadKey
 BuildRequires:	perl-Text-CSV_XS
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -29,7 +29,8 @@ sterowniki Pg, mSQL, mysql, sybase i ODBC.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %install
@@ -44,5 +45,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc Changes README
 %attr(755,root,root) %{_bindir}/*
-%{perl_sitelib}/DBIx/Easy.pm
+%{perl_vendorlib}/DBIx/Easy.pm
 %{_mandir}/man[13]/*
