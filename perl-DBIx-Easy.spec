@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	DBIx
 %define	pnam	Easy
-Summary:	DBIx-Easy perl module
-Summary(pl):	Modu³ perla DBIx-Easy
+Summary:	DBIx::Easy perl module
+Summary(pl):	Modu³ perla DBIx::Easy
 Name:		perl-DBIx-Easy
 Version:	0.14
 Release:	3
@@ -18,10 +18,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-DBIx-Easy perl module.
+DBIx::Easy perl module.
 
 %description -l pl
-Modu³ perla DBIx-Easy.
+Modu³ perla DBIx::Easy.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
