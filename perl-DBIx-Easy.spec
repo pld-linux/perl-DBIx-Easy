@@ -20,11 +20,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 DBIx::Easy is an easy to use DBI interface.  Currently the Pg, mSQL,
-mysql, sybase and ODBC drivers are supported.
+MySQL, sybase and ODBC drivers are supported.
 
 %description -l pl
 DBIx::Easy to ³atwy w u¿yciu interfejs DBI. Aktualnie obs³uguje
-sterowniki Pg, mSQL, mysql, sybase i ODBC.
+sterowniki Pg, mSQL, MySQL, sybase i ODBC.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
