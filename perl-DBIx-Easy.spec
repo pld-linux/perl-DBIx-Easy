@@ -2,8 +2,8 @@
 Summary:	DBIx-Easy perl module
 Summary(pl):	Modu³ perla DBIx-Easy
 Name:		perl-DBIx-Easy
-Version:	0.08
-Release:	3
+Version:	0.09
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
