@@ -2,9 +2,10 @@
 %define	pdir	DBIx
 %define	pnam	Easy
 Summary:	DBIx::Easy - Easy to Use DBI interface
+Summary(pl):	DBIx::Easy - ³atwy w u¿yciu interfejs DBI
 Name:		perl-DBIx-Easy
 Version:	0.15
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -19,6 +20,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 DBIx::Easy is an easy to use DBI interface.  Currently the Pg, mSQL,
 mysql, sybase and ODBC drivers are supported.
+
+%description -l pl
+DBIx::Easy to ³atwy w u¿yciu interfejs DBI. Aktualnie obs³uguje
+sterowniki Pg, mSQL, mysql, sybase i ODBC.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
