@@ -6,7 +6,7 @@ Summary(pl):	DBIx::Easy - ³atwy w u¿yciu interfejs DBI
 Name:		perl-DBIx-Easy
 Version:	0.15
 Release:	4
-License:	GPL
+License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	438be47d8dfda8a559cfeeaeaa3a31ea
