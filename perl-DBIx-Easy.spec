@@ -5,7 +5,7 @@ Summary:	DBIx::Easy - easy to use DBI interface
 Summary(pl):	DBIx::Easy - ³atwy w u¿yciu interfejs DBI
 Name:		perl-DBIx-Easy
 Version:	0.15
-Release:	4
+Release:	5
 License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
