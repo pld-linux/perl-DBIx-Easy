@@ -10,7 +10,7 @@ License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	438be47d8dfda8a559cfeeaeaa3a31ea
-BuildRequires:	perl-devel >= 5.6.1
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl-DBI
 BuildRequires:	perl-Term-ReadKey
 BuildRequires:	perl-Text-CSV_XS
