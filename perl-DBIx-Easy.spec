@@ -31,7 +31,7 @@ sterowniki Pg, mSQL, mysql, sybase i ODBC.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
