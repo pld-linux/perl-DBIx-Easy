@@ -1,9 +1,12 @@
+%define	pdir	DBIx
+%define	pnam	Easy
 %include	/usr/lib/rpm/macros.perl
 Summary:	DBIx-Easy perl module
 Summary(pl):	Modu³ perla DBIx-Easy
 Name:		perl-DBIx-Easy
 Version:	0.14
-Release:	1
+Release:	2
+
 License:	GPL
 Group:		Development/Languages/Perl
 Group(cs):	Vývojové prostøedky/Programovací jazyky/Perl
@@ -20,7 +23,7 @@ Group(pt):	Desenvolvimento/Linguagens/Perl
 Group(ru):	òÁÚÒÁÂÏÔËÁ/ñÚÙËÉ/Perl
 Group(sl):	Razvoj/Jeziki/Perl
 Group(sv):	Utveckling/Språk/Perl
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/DBIx/DBIx-Easy-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.6.1
 BuildRequires:	perl-DBI
