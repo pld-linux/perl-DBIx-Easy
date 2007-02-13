@@ -2,7 +2,7 @@
 %define		pdir	DBIx
 %define		pnam	Easy
 Summary:	DBIx::Easy - easy to use DBI interface
-Summary(pl.UTF-8):   DBIx::Easy - łatwy w użyciu interfejs DBI
+Summary(pl.UTF-8):	DBIx::Easy - łatwy w użyciu interfejs DBI
 Name:		perl-DBIx-Easy
 Version:	1.40
 Release:	1
